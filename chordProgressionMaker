@@ -4,10 +4,10 @@
 # user inputs the key (ex. C Major)
 CurrentKey = input("What key are we in?")
 # program returns relative minor (A) and number of sharps or flats (0)
-possibleMajorKeys = ["C Major", "F Major", "Bb Major", "Eb Major", "Ab Major", "Db Major", "Gb Major", 
-                 "B Major", "E Major", "A Major", "D Major", "G Major"]
-possibleMinorKeys = ["C Minor", "F Minor", "Bb Minor", "Eb Minor", "Ab Minor", "Db Minor", "Gb Minor",
-                 "B Minor", "E Minor", "A Minor", "D Minor", "G Minor"]
+possibleMajorKeys = ["C Major", "F Major", "Bb Major", "Eb Major", "Ab Major", "Db Major", "Gb Major",
+                    "B Major", "E Major", "A Major", "D Major", "G Major"]
+possibleMinorKeys = ["A Minor", "D Minor", "G Minor", "C Minor", "F Minor", "Bb Minor", "Eb Minor",
+                    "Ab Minor", "Db Minor", "Gb Minor", "B Minor", "E Minor"]
 keySignatures = ["No #'s or flats", "1 flat", "2 flats", "3 flats", "4 Flats", "5 flats", "6 flats"
                  "7 flats", "1 sharp", "2 sharps", "3 sharps", "4 sharps", "5 sharps", "6 sharps"
                  "7 sharps"]
