@@ -1,14 +1,15 @@
-#!bin/usr/Python
-# script shows novel chrd progression paths according to classical western music theory
-# using relative minor and pivot chords
-# user inputs the key (ex. C Major)
-CurrentKey = input("What key are we in?")
-# program returns relative minor (A) and number of sharps or flats (0)
-possibleMajorKeys = ["C Major", "F Major", "Bb Major", "Eb Major", "Ab Major", "Db Major", "Gb Major",
-                    "B Major", "E Major", "A Major", "D Major", "G Major"]
-possibleMinorKeys = ["A Minor", "D Minor", "G Minor", "C Minor", "F Minor", "Bb Minor", "Eb Minor",
-                    "Ab Minor", "Db Minor", "Gb Minor", "B Minor", "E Minor"]
-keySignatures = ["No #'s or flats", "1 flat", "2 flats", "3 flats", "4 Flats", "5 flats", "6 flats"
-                 "7 flats", "1 sharp", "2 sharps", "3 sharps", "4 sharps", "5 sharps", "6 sharps"
-                 "7 sharps"]
-# same goes for a minor key (return rel major and key signature
+# script shows novel chord progression paths according to classical western music theory
+# using relative Min and pivot chords
+# user inputs the key (ex. C Maj)
+ChosenKey = input("What key are we in? ")
+MajKeys = ["C Maj", "F Maj", "Bb Maj", "Eb Maj", "Ab Maj", "Db Maj", "Gb Maj",
+                    "B Maj", "E Maj", "A Maj", "D Maj", "G Maj"]
+MinKeys = ["A Min", "D Min", "G Min", "C Min", "F Min", "Bb Min", "Eb Min",
+                    "Ab Min", "Db Min", "Gb Min", "B Min", "E Min"]
+keySigs = ["0 flats or sharps", "1 flat", "2 flats", "3 flats", "4 Flats", "5 flats", "6 flats",
+           "7 flats", "1 sharp", "2 sharps", "3 sharps", "4 sharps", "5 sharps", "6 sharps", "7 sharps"]
+# program returns relative Min (A) and number of sharps or flats (0)
+# same goes for a Min key (return rel Maj and key signature
+print(MajKeys)
+print(MinKeys)
+print(keySigs)
